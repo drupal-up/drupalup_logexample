@@ -1,4 +1,5 @@
-# drupalup_logexample
+Examples of how to log in Drupal 8
+======
 
 
 System is unusable:
