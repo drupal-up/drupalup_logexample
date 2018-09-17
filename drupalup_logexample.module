@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @file
+ * Some hooks.
+ */
+
+ function drupalup_logexample_node_insert(Drupal\Core\Entity\EntityInterface $entity) {
+    \Drupal::logger('drupalup_logexample')->info('We just created a node.');
+ }

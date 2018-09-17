@@ -1,0 +1,4 @@
+name: Drupal Up loging example
+description: Showing how we may log things in Drupal 8
+type: module
+core: 8.x
