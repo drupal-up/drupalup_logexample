@@ -5,6 +5,9 @@
  * Some hooks.
  */
 
- function drupalup_logexample_node_insert(Drupal\Core\Entity\EntityInterface $entity) {
-    \Drupal::logger('drupalup_logexample')->info('We just created a node.');
- }
+/**
+ * Implements hook_node_insert().
+ */
+function drupalup_logexample_node_insert(Drupal\Core\Entity\EntityInterface $entity) {
+   \Drupal::logger('drupalup_logexample')->info('We just created a node.');
+}
